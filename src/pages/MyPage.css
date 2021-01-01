@@ -1,0 +1,37 @@
+h2 {
+    text-align: center;
+}
+#wrap {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+#profile {
+    width: 95%;
+    height: 200px;
+    background-color: #eee;
+    margin: 20px;
+    display: inline-block;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+img {
+    width: 150px;
+    height: 150px;
+    margin: 25px 0px 25px 0px;
+    border-radius: 400px;
+}
+p {
+    font-weight: bold;
+    margin: 15px 0px 15px 0px;
+}
+#content {
+    margin: 15px 100px 15px 0px;
+    float: right;
+    text-align: center;
+}
+#btn {
+    height: 20px;
+    float: right;
+    margin: 0px 15px 0px 0px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
