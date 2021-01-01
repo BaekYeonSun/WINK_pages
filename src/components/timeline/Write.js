@@ -22,7 +22,6 @@ export function Write(props){
             name: '',
             content: ''
         })
-
     }
 
     return <>
