@@ -6,7 +6,7 @@ function App() {
   return (
       <div className={"App"}>
           <Router>
-              <Route path={"/"} component={MainPage} exact/>
+              <Route exact path={"/"} component={MainPage}/>
               <Route path={"/timeline"} component={TimeLinePage}/>
               <Switch>
                   <Route path={"/profile/:name"} component={MyPage}/>
