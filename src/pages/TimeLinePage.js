@@ -24,6 +24,7 @@ async function createFeed(name, body) {
         }),
     });
     console.log(await result.json());
+    window.location.reload();
 }
 
 async function readFeeds(){
